@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-    return (0);
+return (0);
 printf("Size of a char : %d byte(s)\n",sizeof(char));
 printf("Size of an int : %d byte(s)\n",sizeof(int));
 printf("Size of a long int: %d byte(s)\n",sizeof(long int));
