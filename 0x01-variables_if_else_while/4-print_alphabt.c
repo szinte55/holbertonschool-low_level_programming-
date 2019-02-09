@@ -1,17 +1,19 @@
 #include <stdio.h>
 /**
- * main - Out put alphabet in lower case then upper case
+ * main - Output the alphabet in lower case, except for q and e.
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char h;
+char h = 'a';
 
-	for (h = 'a'; h <= 'z'; x++)
-		putchar(h);
-	for (h = 'A'; h <= 'Z'; x++)
-		putchar(h);
-	putchar('\n');
-	return (0);
+while (h <= 'z')
+{
+	if (h != 'q' && h != 'e')
+		putchar (h);
+	h++;
+}
+putchar('\n');
+return (0);
 }
