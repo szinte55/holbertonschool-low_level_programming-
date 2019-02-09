@@ -10,6 +10,6 @@ int main(void)
 
 	for (h = 0; h <= 9 ; h++)
 		printf("%d", h)
-
-			return (0);
+	printf("\n");
+	return (0);
 }
