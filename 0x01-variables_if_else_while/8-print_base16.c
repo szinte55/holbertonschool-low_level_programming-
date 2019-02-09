@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	int h;
-	int k;
+	int i;
+	int j;
 
-	for (h = '0'; h <= '9'; h++)
-		putchar (a);
+	for (i = '0'; i <= '9'; i++)
+		putchar (i);
 
-	for (k = 'a'; k <= 'f'; k++)
-		putchar (k);
+	for (j = 'a'; j <= 'f'; j++)
+		putchar (j);
 	putchar ('\n');
 	return (0);
 }
