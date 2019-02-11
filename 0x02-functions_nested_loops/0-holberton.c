@@ -1,10 +1,15 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
- * main - prints all numbers of base 16 in lowercase
+ * main - print the string "Holberton"
  * Return: Always 0(success)
  */
 int main(void)
 {
-	printf("Holberton/n");
+	char A[] = "Holberton";
+	unsigned int i;
+
+	for (i = 0; i <= sizeof(A) - 1; i++)
+		_putchar(A[i]);
+	_putchar('\n');
 	return (0);
 }
