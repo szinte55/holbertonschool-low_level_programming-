@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char A[] = "Holberton";
+	char A[] = "Holberton\n";
 	unsigned int i;
 
 	for (i = 0; i <= sizeof(A) - 1; i++)
