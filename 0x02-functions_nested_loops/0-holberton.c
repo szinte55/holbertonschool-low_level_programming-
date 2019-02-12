@@ -10,6 +10,5 @@ int main(void)
 
 	for (i = 0; i <= sizeof(A) - 1; i++)
 		_putchar(A[i]);
-	_putchar('\n');
 	return (0);
 }
