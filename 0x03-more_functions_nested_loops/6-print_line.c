@@ -1,15 +1,15 @@
 #include "holberton.h"
 
 /**
- * more_numbers - Print the numbers 0 to 14 ten times followed by new line.
- *
+ * print_line - Draw a straight line in the terminal
+ *@n: parameter passed
  * Return: Void
  */
 void print_line(int n)
 {
 	int x;
 
-	if (n <=0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
