@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *print_square - Draw a diagonal
+ *print_square - print a square
  *@size: parameter passed
  * Return: Void
  */
