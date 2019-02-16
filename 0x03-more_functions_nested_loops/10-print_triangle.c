@@ -1,8 +1,9 @@
 #include "holberton.h"
+
 /**
  * print_triangle - Print a triangle
  *
- * @size: length of base of triangle
+ * @size: side of triangle
  */
 void print_triangle(int size)
 {
@@ -12,7 +13,7 @@ void print_triangle(int size)
 	{
 		for (i = 0; i < size; i++)
 		{
-			for (j = 0; j <= size -(i+1); j++)
+			for (j = 0; j <= size - (i + 1); j++)
 				_putchar(' ');
 			for (k = 0; k <= size - j; k++)
 				_putchar('#');
